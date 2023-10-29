@@ -1,0 +1,46 @@
+@font-face {
+    font-family: drivecorps;
+    src: url(../Fonts/drivecorps.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: linear-gradient(to bottom, #FE7000, #98571B);
+    padding-bottom: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    text-align: justify;
+    margin-left: 5px;
+}
+pre {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#virtuosa {
+    text-align: center;
+    font-family: drivecorps;
+    font-size: 75px;
+}
+nav {
+    display: inline;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    font-size: 20px;
+    border-style: outset;
+    border-color: #FE7000;
+    border-radius: 10px;
+}
